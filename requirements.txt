@@ -1,3 +1,4 @@
+# BiLSTM 与 BERT 共同依赖
 torch
 pandas
 numpy
@@ -6,3 +7,6 @@ matplotlib
 seaborn
 tqdm
 beautifulsoup4
+
+# BERT 额外依赖（transformers 自动带入 safetensors、tokenizers、huggingface-hub）
+transformers>=4.40
